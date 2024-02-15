@@ -1,0 +1,71 @@
+/* Import Noto Sans JP from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+
+
+@font-face {
+    font-family: 'Founders Grotesk Bold';
+    src: url('assets/fonts/FoundersGrotesk-Bold.otf') format('truetype'),
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('assets/fonts/FoundersGrotesk-Regular.otf') format('truetype'),
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .menu-container {
+        width: calc(90% - 20px); /* Adjusts the width to ensure 10px margins are maintained */
+        margin: 10px 10px 0 10px; /* 10px top, left, and right margins, 0 bottom margin */
+        max-width: 700px; /* Optional: Limits the maximum width of the container */
+        box-sizing: border-box; /* Ensures padding and border are included in the width calculation */
+    }
+
+    .menu-title {
+        font-family: 'Founders Grotesk Bold', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 32.3vw; /* Adjusts the size based on the width of the viewport */
+        margin:  0; /* 10px top, left, and right margins, no bottom margin */
+    }
+
+    .section-title {
+        font-family: 'Founders Grotesk Bold', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        border-bottom: 1px dotted #000;
+        padding-bottom: 1px;
+        margin: 40px 0 20px;
+    }
+
+    .dish-name {
+        font-family: 'Founders Grotesk', sans-serif;
+        font-weight: normal;
+        font-size: 18px; /* Smaller than h2 */
+        margin: 10px 0 0 0;
+    }
+
+    .dish-description {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: normal;
+        font-size: 16px; /* Smaller than dish-name */
+        margin: 0 0 20px 0;
+    }
+
+    .dish-description span.highlight {
+        background-color: #E0FF79; /* Light grey background */
+        //padding: 2px 5px; /* Adds padding around the text */
+    }
+
+    .jp-text {
+        font-size: 14px; /* Smaller font size for Japanese text */
+    }
+}
