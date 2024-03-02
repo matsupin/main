@@ -70,3 +70,8 @@ body {
 .jp-text {
     font-size: 14px; /* Smaller font size for Japanese text */
 }
+
+.comment {
+    font-size: 0.8em; /* Smaller font size */
+    margin-top: 20px; /* Adds some space from the edges */
+}
