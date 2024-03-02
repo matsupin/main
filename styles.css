@@ -83,5 +83,11 @@ body {
         font-size: 0.8em; /* Smaller font size */
         margin-top: 20px; /* Adds some space from the edges */
     }
-    
+
+    .menu-image {
+        display: block; /* Makes sure the image doesn't inline with text */
+        max-width: 100%; /* Ensures the image is not wider than its container */
+        height: auto; /* Maintains the aspect ratio of the image */
+        margin: 20px auto; /* Adds some space above and below the image, and centers it */
+    }
 }
