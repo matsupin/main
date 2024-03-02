@@ -49,23 +49,36 @@ body {
     .dish-name {
         font-family: 'Founders Grotesk', sans-serif;
         font-weight: normal;
-        font-size: 18px; /* Smaller than h2 */
-        margin: 10px 0 0 0;
+        font-size: 10px; /* Smaller than h2 */
+        margin: 10px 0;
     }
-
+    
+    .dish-text {
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
     .dish-description {
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: normal;
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
         font-size: 16px; /* Smaller than dish-name */
-        margin: 0 0 20px 0;
+        margin: 5px 0 20px;
     }
 
     .dish-description span.highlight {
         background-color: #E0FF79; /* Light grey background */
         //padding: 2px 5px; /* Adds padding around the text */
     }
-
+    
     .jp-text {
         font-size: 14px; /* Smaller font size for Japanese text */
     }
+    
+    .comment {
+        font-size: 0.8em; /* Smaller font size */
+        margin-top: 20px; /* Adds some space from the edges */
+    }
+    
 }
