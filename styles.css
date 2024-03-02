@@ -1,6 +1,7 @@
 /* Import Japanese fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=M+PLUS+Rounded+1c&display=swap')
 
 @font-face {
     font-family: 'Founders Grotesk Bold';
@@ -54,7 +55,8 @@ body {
     }
     
     .dish-text {
-        font-family: "M PLUS 1p", sans-serif;
+        /* font-family: "M PLUS 1p", sans-serif; */
+        font-family: "M PLUS Rounded 1c", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 16px;
@@ -70,7 +72,7 @@ body {
 
     .dish-description span.highlight {
         background-color: #E0FF79; /* Light grey background */
-        //padding: 2px 5px; /* Adds padding around the text */
+        /* padding: 2px 5px; */ 
     }
     
     .jp-text {
