@@ -38,6 +38,11 @@ body {
         margin:  0; /* 10px top, left, and right margins, no bottom margin */
     }
 
+    .menu-dot {
+        font-size: 0.5em; /* Adjust the size as needed */
+        vertical-align: middle; /* Keeps the dot vertically aligned with the text */
+    }
+    
     .section-title {
         font-family: 'Founders Grotesk Bold', sans-serif;
         font-weight: bold;
