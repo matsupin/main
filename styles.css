@@ -56,8 +56,11 @@ body {
     .dish-name {
         font-family: 'Founders Grotesk', sans-serif;
         font-weight: normal;
-        font-size: 16px; /* Smaller than h2 */
-        margin: 10px 0;
+        font-size: 18px; /* Smaller than h2 */
+        margin-top: 10px; /* Keeps the top margin as is */
+        margin-bottom: 5px; /* Reduces the bottom margin to decrease space */
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .dish-text {
@@ -78,6 +81,7 @@ body {
 
     .dish-text span.highlight {
         background-color: #F0FF8A; /* Light yellow background */
+        margin-left: 0.5em;
         /* padding: 2px 5px; */ 
     }
     
@@ -88,6 +92,7 @@ body {
     .comment {
         font-size: 0.8em; /* Smaller font size */
         margin-top: 20px; /* Adds some space from the edges */
+        margin-bottom: 30px;
     }
 
     .menu-image {
