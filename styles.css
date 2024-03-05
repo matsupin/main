@@ -81,7 +81,10 @@ body {
     }
 
     .dish-text span.highlight {
-        background-color: #FFE5C2; /* Light yellow background */
+        background-color: #FFEFD6; /* Light yellow background FFE5C2 */
+        padding-left: 0.5em; /* Adds padding to the left inside the highlight */
+        margin-left: -0.5em; /* Negates the added padding to keep text aligned */
+        display: inline-block; /* May help in certain layouts */
     }
     
     .jp-text {
