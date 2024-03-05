@@ -81,8 +81,8 @@ body {
 
     .dish-text span.highlight {
         background-color: #F0FF8A; /* Light yellow background */
-        margin-left: 1.5em;
-        /* padding: 2px 5px; */ 
+        position: relative;
+        left: 0.5em; /* Adjust as necessary */
     }
     
     .jp-text {
