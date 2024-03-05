@@ -56,7 +56,7 @@ body {
     .dish-name {
         font-family: 'Founders Grotesk', sans-serif;
         font-weight: normal;
-        font-size: 10px; /* Smaller than h2 */
+        font-size: 16px; /* Smaller than h2 */
         margin: 10px 0;
     }
     
@@ -76,7 +76,7 @@ body {
         margin: 5px 0 20px;
     }
 
-    .dish-description span.highlight {
+    .dish-text span.highlight {
         background-color: #F0FF8A; /* Light yellow background */
         /* padding: 2px 5px; */ 
     }
