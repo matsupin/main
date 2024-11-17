@@ -39,7 +39,7 @@ body {
     }
 
     .menu-dot {
-        font-family: "M PLUS 1p", sans-serif;
+        font-family: Arial, sans-serif; /* "M PLUS 1p" */
         font-size: 0.2em; /* Adjust the size as needed */
         vertical-align: middle; /* Keeps the dot vertically aligned with the text */
         line-height: 1;
