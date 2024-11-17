@@ -42,6 +42,7 @@ body {
         font-family: "M PLUS 1p", sans-serif;
         font-size: 0.2em; /* Adjust the size as needed */
         vertical-align: middle; /* Keeps the dot vertically aligned with the text */
+        line-height: 1;
     }
     
     .section-title {
